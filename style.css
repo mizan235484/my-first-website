@@ -1,0 +1,52 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{font-size: 40px;}
+
+p{color: dimgray;}
+.orange-highlight{color: orange;}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+section{
+
+ height: 600px;
+ padding-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato );
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    
+}
+#agd{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#bgd{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+footer p{text-align: center;}
+
+
